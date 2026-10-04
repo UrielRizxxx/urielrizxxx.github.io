@@ -25,5 +25,10 @@ h2 { font-size: 22px; margin: 40px 0 8px; text-wrap: balance; }
 .card { background: var(--panel); border: 1px solid rgba(160, 140, 255, 0.2); border-radius: 18px; padding: 20px 22px; margin-top: 24px; }
 .muted { color: var(--soft); font-size: 15px; }
 .btn { display: inline-block; margin-top: 16px; padding: 12px 20px; border-radius: 12px; background: var(--cyan); color: #06121a; font-weight: 800; text-decoration: none; }
-ul { padding-left: 22px; }
+h3 { font-size: 18px; margin: 24px 0 6px; }
+h2[id] { scroll-margin-top: 16px; }
+ul, ol { padding-left: 22px; }
+li { margin: 4px 0; }
+.toc ol { margin: 8px 0 0; columns: 2 220px; column-gap: 24px; font-size: 15px; }
+.toc a { text-decoration: none; }
 footer { margin-top: 48px; color: var(--soft); font-size: 14px; }
